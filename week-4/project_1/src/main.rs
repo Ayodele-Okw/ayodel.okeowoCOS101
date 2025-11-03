@@ -14,11 +14,11 @@ fn main()
     io::stdin().read_line(&mut input1).expect("Not a valid string");
     let a:f32 = input1.trim().parse().expect("Not a vlid number");
 
-    println!("Enter b: ");
+    println!("Enter b: ",);
     io::stdin().read_line(&mut input2).expect("Not a valid string");
     let b:f32 = input2.trim().parse().expect("Not a valid number");
 
-    println!("Enter c: ");
+    println!("Enter c: ",);
     io::stdin().read_line(&mut input3).expect("Not a valid String");
     let c:f32 = input3.trim().parse().expect("Not a valid number");
 

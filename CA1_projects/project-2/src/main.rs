@@ -33,7 +33,7 @@ fn main() {
     let ci = a - principal;
     println!("your amount is {} and your compound interest is {} ", a, ci);
 
-    println!("if you want to end the program type 0.001");
+    println!("if you want to end the program type 0.001 if not continue your calculations");
 
     
 
